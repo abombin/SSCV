@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # map needs on the server: sudo apt install libgdal-dev
 # to find capitals coordinates uses free https://simplemaps.com/data/world-cities
 
