@@ -5,9 +5,6 @@
 #setwd("/home/ubuntu/github/shinyApp/shinyVizApps/uploadDatCov")
 
 
-
-
-
 library(shiny)
 library(ggtree)
 library(ggplot2)
@@ -352,3 +349,5 @@ server <- function(input, output) {
   })
 }
 
+
+shinyApp(ui, server)
