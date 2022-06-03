@@ -1,8 +1,11 @@
-
 # map needs on the server: sudo apt install libgdal-dev
 # to find capitals coordinates uses free https://simplemaps.com/data/world-cities
 
 #setwd("/home/ubuntu/github/shinyApp/shinyVizApps/uploadDatCov")
+
+library(BiocManager)
+options(repos = BiocManager::repositories())
+
 
 
 library(shiny)
@@ -348,6 +351,5 @@ server <- function(input, output) {
     leafletOutput('Map', width = "150%", height = 700)
   })
 }
-
 
 shinyApp(ui, server)
